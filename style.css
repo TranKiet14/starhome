@@ -18,6 +18,15 @@
     font-weight: 500;
     margin-bottom: 5px;
 }
+@keyframes fadeIn {
+    0% {
+      opacity: 0.6;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
 .link{
     display: flex;
     align-items: center;
@@ -29,6 +38,7 @@
     background: #fff;
     border-radius: 10px;
     margin-top: 10px;
+    animation: fadeIn 1s ease-in-out infinite;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .avatar{
