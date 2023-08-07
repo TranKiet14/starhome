@@ -18,6 +18,9 @@
     font-weight: 400;
     margin-bottom: 5px;
 }
+.content-2{
+  margin-top: 25px;
+}
 @keyframes shake {
     0%, 100% {
       transform: translateX(0);
@@ -62,6 +65,7 @@
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     animation: shake 5s infinite linear;
 }
+
 @keyframes shake {
   0%, 100% {
     transform: translateX(0);
